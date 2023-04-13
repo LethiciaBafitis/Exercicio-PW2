@@ -1,0 +1,61 @@
+
+*,
+::after,
+::before {
+  margin: 0;
+}
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #d6a6e9;
+  color: #000000;
+
+}
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 5rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+
+}
+
+
+
+main {
+  min-height: 100vh;
+  display: grid;
+
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+#value {
+  font-size: 6rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botao {
+  text-transform: uppercase;
+  background: transparent;
+  color: #000000;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #800080;
+  border-radius: 15px;
+  margin: 5px;
+}
+.botao:hover {
+ background-color: #d6a7be;
+}
+
+#nome{
+  font-size: 40px;
+  text-shadow: 1px 1px 10px;
+  color: #6b1010;
+}
